@@ -1,5 +1,5 @@
 /************************************************/
-/*      HACQUEBORD & BUCKLES IN THE HOUSE!      */
+/*    Vraag me niet andere mensen te worden     */
 /************************************************/
 
 * {
@@ -20,9 +20,9 @@ html, body {
 
 body {
     color: #333;
-    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
+    font-family: Skolar, 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;
     font-size: 34px;
-    line-height: 2em;
+    line-height: 1.7em;
 }
 
 /* ---------------------- */
@@ -59,7 +59,7 @@ blockquote {
 }
 
 p {
-    font-size: 1em;
+    font-size: .9em;
     margin-bottom: 40px;
 }
 
@@ -85,7 +85,7 @@ section {
 
 .site-width {
     width: 90%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -111,7 +111,10 @@ section {
 }
 
 .top h2 {
+    font-size: 3em;
     color: #f2f2f2;
+    line-height: 1.2em;
+    margin: 0 0 180px 0;
 }
 
 .top blockquote {
@@ -134,14 +137,9 @@ section {
 
 .intro h2 {
     color: #222;
-    line-height: 2em;
-}
-
-.intro blockquote {
-    margin: 280px 0;
-
-    color: #8CBC82;
+    font-size: 2em;
     line-height: 1.2em;
+    margin: 100px 0 0 0;
 }
 
 /* ---------------------- */
@@ -169,17 +167,10 @@ section {
     line-height: 1.2em;
 }
 
-.conclusie p {
-    color: black;
-    font-size: 1.4em;
-    line-height: 1.8em;
-}
-
 /* ---------------------- */
 
 .komma {
-    clear: both;
-    
+    clear: both; 
     background: #8CBC82;
 }
 
@@ -195,6 +186,8 @@ section {
 .komma h2 {
     margin: .4em;
 
+    
+    font-size: 2em;
     line-height: 1.2em;
     color: #f2f2f2;
     text-align: left;
@@ -214,6 +207,7 @@ section {
 .komma.second{
     background-position: bottom;
 }
+
 /* ---------------------- */
 
 .maar {
@@ -256,6 +250,10 @@ section {
     line-height: 1em;
 }
 
+.mededeling .nadruk {
+    border-bottom: solid .2em #FE5A27;
+}
+
 /* ---------------------- */
 
 .opsomming h1 {
@@ -265,13 +263,20 @@ section {
 
 .opsomming h2 {
     margin: 2em 0 0 0;
+    color: #8CBC82;;
+    font-size: 2.2em;
 }
 
 /* ---------------------- */
 
-.alternatieven h1, h2, h3 {
+.alternatieven h1, .alternatieven h3 {
+    background: url('../img/down.png') center bottom no-repeat;
+}
+
+.alternatieven h1, .alternatieven h2, .alternatieven h3 {
 
     margin: 5em 0;
+    padding: 1.4em 0;
 
     line-height: 1em;
 }
@@ -285,9 +290,9 @@ section {
 }
 
 .alternatieven h2 {
-    margin: 5em 0 0 0;
-
-    line-height: 1em;
+    margin: 2em 0 0 0;
+    color: #8CBC82;;
+    font-size: 1.1em;
 }
 
 .alternatieven ul {
@@ -306,20 +311,18 @@ section {
 
 /* ---------------------- */
 
-.footer-top {
-    background: #8CBC82;
-    height: .8em;
-}
-
-footer {
-    background: #8CBC82;
-    padding: 3em 0;
-}
-
-footer blockquote, h2 {
-    margin: 0;
-
+.succes h1 {
+    text-align: left;
     font-size: 1em;
-    color: white;
-    line-height: 2em;
+}
+
+/* ---------------------- */
+
+.footer {
+    background: #CCC;
+}
+
+.footer h3 {
+    color: #222;
+    margin: 1em;
 }
